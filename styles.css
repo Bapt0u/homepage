@@ -75,7 +75,8 @@ body {
   border-radius: 3px;
   font-family: var(--fontFamily);
   font-size: 0.85rem;
-  width: 25%;
+  width: 14%;
+  min-width: 100px;
   height: 12em;
   margin: 0em 0.5em;
   box-sizing: border-box;
@@ -136,9 +137,9 @@ td {
 }
 
 .shadow {
-  -webkit-box-shadow: 0px 7px 11px 4px rgba(0,0,0,0.7); 
-  box-shadow: 0px 7px 11px 4px rgba(0,0,0,0.7);
-  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 8px 4px rgba(0,0,0,0.55); 
+  box-shadow: 0px 5px 8px 4px rgba(0,0,0,0.55);
+  border-radius: 3px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
